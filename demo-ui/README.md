@@ -54,6 +54,7 @@ Generally used on tedious issues as well as on rarer occasions when I suspected 
     - I put in the endpoints as well as setup (server start function)
     - I told it to generate the responses and error for each one since it was simple
     - Handled error cases on client, obvious try-catch and status errors
+    - Also recently handled quick implementation of optimistic loading from list to Compare Prices, displaying just the pharmacy data. Checked over, seems to do more elaborate checks than needed but still works.
 - Loading Pages
     - All of it, knew the logic and just wanted something decent to fill in the page.
 
