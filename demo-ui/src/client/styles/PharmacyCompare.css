@@ -1,0 +1,37 @@
+.pharmacy-compare-container
+{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 16rem;
+    /* flex-direction: row;
+    justify-content: space-between;  */
+    align-items: flex-start;    
+    border: 1px solid gray;
+    margin: 20px 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.pharmacy-compare-header
+{
+    margin: 0px 0px 5px 0px;
+}
+.pharmacy-compare-details
+{
+    grid-column: 1;
+}
+.pharmacy-compare-price
+{
+    grid-column: 2;
+    min-width:0;
+}
+.pharmacy-compare-savings--cheaper {
+    color: #15803d;
+}
+/* .pharmacy-compare-savings--same
+{
+    color: #FFC111 
+} */
+.pharmacy-compare-savings--expensive {
+    color: #b91c1c;
+}
+

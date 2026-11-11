@@ -1,0 +1,47 @@
+.medication-item-container{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+
+}
+/* .medication-item-container > h3{
+    text-align: center;
+} */
+
+
+.medication-item-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*space for button*/
+    align-items: flex-end;          
+}
+
+.medication-item-details{
+    color:gray;
+    font-size: medium;
+    flex-direction: column;
+    justify-self: flex-start;
+}
+
+.medication-item-compare-button
+{
+    flex-direction: row;
+    justify-self: right;
+}
+
+.medication-item-compare-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff7134 ;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+}
+
+.medication-item-compare-button:hover {
+    background-color: #4a5fa9 ;
+
+}

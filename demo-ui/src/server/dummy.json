@@ -1,0 +1,127 @@
+{
+  "medications": [
+    {
+      "id": "med-001",
+      "name": "Atorvastatin",
+      "strength": "20 mg",
+      "form": "Tablet",
+      "quantity": 30,
+      "daysSupply": 30,
+      "currentPrice": 58.75,
+      "pharmacies": [
+        {
+          "id": "ph-001",
+          "name": "CVS Pharmacy",
+          "address": "461 2nd Ave, Troy, NY 12182",
+          "price": 58.75
+        },
+        {
+          "id": "ph-002",
+          "name": "Walgreens",
+          "address": "549 Hoosick St, Troy, NY 12180",
+          "price": 44.20
+        },
+        {
+          "id": "ph-003",
+          "name": "Walmart Pharmacy",
+          "address": "760 Hoosick Rd, Troy, NY 12180",
+          "price": 16.95
+        },
+        {
+          "id": "ph-004",
+          "name": "Hannaford Pharmacy",
+          "address": "9 Lord Ave, Troy, NY 12180",
+          "price": 22.10
+        },
+        {
+          "id": "ph-005",
+          "name": "Market 32 Pharmacy",
+          "address": "716 Hoosick Rd, Troy, NY 12180",
+          "price": 25.40
+        }
+      ]
+    },
+    {
+      "id": "med-002",
+      "name": "Lisinopril",
+      "strength": "10 mg",
+      "form": "Tablet",
+      "quantity": 30,
+      "daysSupply": 30,
+      "currentPrice": 24.40,
+      "pharmacies": [
+        {
+          "id": "ph-001",
+          "name": "CVS Pharmacy",
+          "address": "461 2nd Ave, Troy, NY 12182",
+          "price": 31.75
+        },
+        {
+          "id": "ph-002",
+          "name": "Walgreens",
+          "address": "549 Hoosick St, Troy, NY 12180",
+          "price": 24.40
+        },
+        {
+          "id": "ph-003",
+          "name": "Walmart Pharmacy",
+          "address": "760 Hoosick Rd, Troy, NY 12180",
+          "price": 8.40
+        },
+        {
+          "id": "ph-004",
+          "name": "Hannaford Pharmacy",
+          "address": "9 Lord Ave, Troy, NY 12180",
+          "price": 12.99
+        },
+        {
+          "id": "ph-005",
+          "name": "Market 32 Pharmacy",
+          "address": "716 Hoosick Rd, Troy, NY 12180",
+          "price": 15.25
+        }
+      ]
+    },
+    {
+      "id": "med-003",
+      "name": "Metformin",
+      "strength": "500 mg",
+      "form": "Tablet",
+      "quantity": 60,
+      "daysSupply": 30,
+      "currentPrice": 36.25,
+      "pharmacies": [
+        {
+          "id": "ph-001",
+          "name": "CVS Pharmacy",
+          "address": "461 2nd Ave, Troy, NY 12182",
+          "price": 52.10
+        },
+        {
+          "id": "ph-002",
+          "name": "Walgreens",
+          "address": "549 Hoosick St, Troy, NY 12180",
+          "price": 36.25
+        },
+        {
+          "id": "ph-003",
+          "name": "Walmart Pharmacy",
+          "address": "760 Hoosick Rd, Troy, NY 12180",
+          "price": 13.50
+        },
+        {
+          "id": "ph-004",
+          "name": "Hannaford Pharmacy",
+          "address": "9 Lord Ave, Troy, NY 12180",
+          "price": null
+        },
+        {
+          "id": "ph-005",
+          "name": "Market 32 Pharmacy",
+          "address": "716 Hoosick Rd, Troy, NY 12180",
+          "price": 19.99
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.skeleton {
+  border-radius: 6px;
+  background: linear-gradient(90deg, #eee 25%, #f7f7f7 50%, #eee 75%);
+  background-size: 200% 100%;
+  animation: loading-shimmer 1.4s infinite;
+}
+
+.skeleton-title {
+  width: 40%;
+  height: 2rem;
+  margin: 1.5rem 0;
+}
+
+.skeleton-line {
+  width: 55%;
+  height: 1rem;
+  margin: 0.75rem 0;
+}
+
+.skeleton-pharmacy {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+@keyframes loading-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}

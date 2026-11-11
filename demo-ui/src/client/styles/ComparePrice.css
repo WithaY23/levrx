@@ -1,0 +1,14 @@
+.compare-price-return-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff7134 ;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+}
+
+.compare-price-return-button:hover {
+    background-color: #4a5fa9 ;
+}
